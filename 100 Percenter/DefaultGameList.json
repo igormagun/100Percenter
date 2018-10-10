@@ -1,0 +1,178 @@
+[
+  {
+  "listVersion": 0.02745
+  },
+  {
+  "name": "GTA IV",
+  "icon": "GTA4",
+  "largeIcon": "GTA4Large",
+  "uniqueID": 0,
+  "taskCategories": [
+    {
+      "name": "Story Missions",
+      "uniqueID": 0,
+      "tasks": [
+        {
+          "name": "The Cousins Bellic",
+          "completed": false,
+          "uniqueID": 0
+        },
+        {
+          "name": "It's Your Call",
+          "completed": false,
+          "uniqueID": 1
+        },
+        {
+          "name": "Three's a Crowd",
+          "completed": false,
+          "uniqueID": 2
+        },
+        {
+          "name": "Bleed Out",
+          "completed": false,
+          "uniqueID": 3
+        },
+        {
+          "name": "First Date",
+          "completed": false,
+          "uniqueID": 4
+        },
+        {
+          "name": "Easy Fare",
+          "completed": false,
+          "uniqueID": 5
+        },
+        {
+          "name": "Bull in a China Shop",
+          "completed": false,
+          "uniqueID": 6
+        }
+      ]
+    },
+    {
+      "name": "Stevie's Car Thefts",
+      "uniqueID": 1,
+      "tasks": [
+        {
+          "name": "Banshee",
+          "completed": false,
+          "uniqueID": 9
+        },
+        {
+          "name": "Bobcat",
+          "completed": false,
+          "uniqueID": 10
+        },
+        {
+            "name": "Buccaneer Tester",
+            "completed": false,
+            "uniqueID": 11
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "GTA III",
+  "icon": "GTA3",
+  "largeIcon": "GTA3Large",
+  "uniqueID": 1,
+  "taskCategories": [
+    {
+      "name": "Portland Story Missions - Intro",
+      "uniqueID": 0,
+      "tasks": [
+        {
+          "name": "Give Me Liberty",
+          "completed": false,
+          "uniqueID": 0
+        }
+      ]
+    },
+    {
+      "name": "Portland Story Missions - Luigi",
+      "uniqueID": 1,
+      "tasks": [
+        {
+          "name": "Luigi's Girls",
+          "completed": false,
+          "uniqueID": 1
+        },
+        {
+          "name": "Don't Spank Ma Bitch Up",
+          "completed": false,
+          "uniqueID": 2
+        },
+        {
+          "name": "Pump Action Pimp",
+          "completed": false,
+          "uniqueID": 3
+        },
+        {
+          "name": "The Fuzz Ball",
+          "completed": false,
+          "uniqueID": 4
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "GTA San Andreas",
+  "icon": "GTASA",
+  "largeIcon": "GTASALarge",
+  "uniqueID": 2,
+  "taskCategories": [
+    {
+      "name": "Los Santos - Beginning Missions",
+      "uniqueID": 0,
+      "tasks": [
+        {
+          "name": "Introduction",
+          "completed": false,
+          "uniqueID": 0
+        },
+        {
+          "name": "Big Smoke",
+          "completed": false,
+          "uniqueID": 1
+        },
+        {
+          "name": "Ryder",
+          "completed": false,
+          "uniqueID": 2
+        }
+      ]
+    }
+  ]
+},
+{
+    "name": "Test",
+    "icon": "GTASA",
+    "largeIcon": "GTASALarge",
+    "uniqueID": 3,
+    "taskCategories": [
+        {
+            "name": "Test Missions",
+            "uniqueID": 0,
+            "tasks": [
+                {
+                    "name": "Introduction",
+                    "completed": false,
+                    "uniqueID": 0
+                },
+                {
+                    "name": "Big Smoke",
+                    "completed": false,
+                    "uniqueID": 1
+                },
+                {
+                    "name": "Ryder",
+                    "completed": false,
+                    "uniqueID": 2
+                }
+            ]
+        }
+    ]
+}
+]
