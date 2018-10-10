@@ -59,5 +59,7 @@ For category titles, also try to keep any keywords at the front that could help 
 
 ## License
 Copyright 2018 Igor Magun
+
 Licensed under GPLv3: https://www.gnu.org/licenses/gpl-3.0.en.html
+
 App icon uses the "Hundred Points Symbol" emoji from the Twemoji collection by Twitter Inc., licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
