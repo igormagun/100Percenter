@@ -9,8 +9,8 @@ Anyone who wishes to can contribute to the game list, though I would not recomme
 
 ## TO-DO
 * Fill out the initial game list - the first few games will be GTA IV, GTA III and GTA San Andreas. I am planning to add more in future releases, but will release with these three
-* Create an app icon
 * Support for subcategories in each individual game's list of tasks
+* Add a quick about page
 
 ## Future Improvements
 * Split the game list out into different JSON files for each game - a single JSON file will quickly become unwieldy
@@ -56,3 +56,8 @@ Note also that the game should be accompanied by two icons: a small icon for the
 Make sure to consider how to best split things into categories/subcategories, to keep the list neat and easy to navigate. Also try to keep category titles short whenever possible, as longer titles will be cutoff in the header of the category page (especially for users with a large font size set).
 
 For category titles, also try to keep any keywords at the front that could help the user identify which page they're on (i.e. "Roman - Missions" may be better than "Missions - Roman" if the second word gets cut off).
+
+## License
+Copyright 2018 Igor Magun
+Licensed under GPLv3: https://www.gnu.org/licenses/gpl-3.0.en.html
+App icon uses the "Hundred Points Symbol" emoji from the Twemoji collection by Twitter Inc., licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/

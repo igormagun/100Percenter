@@ -18,6 +18,7 @@
 		94CD6E8E210130CC003509C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CD6E8D210130CC003509C6 /* Assets.xcassets */; };
 		94CD6E91210130CC003509C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CD6E8F210130CC003509C6 /* LaunchScreen.storyboard */; };
 		94F0230A21029C180001567F /* GameListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F0230921029C180001567F /* GameListTableViewController.swift */; };
+		94F1A306216E959300277A21 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 94F1A305216E959300277A21 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		94CD6E90210130CC003509C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94CD6E92210130CC003509C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F0230921029C180001567F /* GameListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListTableViewController.swift; sourceTree = "<group>"; };
+		94F1A305216E959300277A21 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				94ABA9E22114E666004E951C /* README.md */,
+				94F1A305216E959300277A21 /* LICENSE */,
 				94CD6E85210130CB003509C6 /* 100 Percenter */,
 				94CD6E84210130CB003509C6 /* Products */,
 			);
@@ -141,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F1A306216E959300277A21 /* LICENSE in Resources */,
 				94CD6E91210130CC003509C6 /* LaunchScreen.storyboard in Resources */,
 				94CD6E8E210130CC003509C6 /* Assets.xcassets in Resources */,
 				94CC9FD32137A8CB000305B7 /* DefaultGameList.json in Resources */,
