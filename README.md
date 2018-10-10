@@ -59,6 +59,7 @@ For category titles, also try to keep any keywords at the front that could help 
 
 ## Credits
 Thanks to Twitter for the "Hundred Points Symbol" emoji from their Twemoji collection, which I used for the app icon. It is licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
 Thanks to Skygear for their excellent MakeAppIcon tool, which made creating the icon much, much easier - I just put a single PNG into their tool, and it gave me everything I needed
 
 ## License
