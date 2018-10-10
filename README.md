@@ -23,7 +23,8 @@ Anyone who wishes to can contribute to the game list, though I would not recomme
 ## Contributing to the Game List
 The current formatting for the JSON files looks something like the following. It is currently stored in one file, but will be split off into separate JSON files either before launch or shortly after.
 
-`{
+```json
+{
     "name": "Game Name",
     "icon": "GameName",
     "largeIcon": "GameNameLarge",
@@ -41,7 +42,8 @@ The current formatting for the JSON files looks something like the following. It
         ]
     }
     ]
-}`
+}
+```
 
 A couple things to note here:
 * Each task has an ID unique to the entire game - this allows for tasks to be moved between categories in future updates if needed. The app will throw an error if multiple tasks have the same ID, use this to verify your list before submitting
