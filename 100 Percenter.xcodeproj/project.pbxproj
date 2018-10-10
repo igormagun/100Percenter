@@ -50,9 +50,7 @@
 		94CD6E7A210130CB003509C6 = {
 			isa = PBXGroup;
 			children = (
-				94F0230921029C180001567F /* GameListTableViewController.swift */,
-				94ABA9E02114C75C004E951C /* TaskCategoriesTableViewController.swift */,
-				94A17A0B211F92100001F1A5 /* TasksTableViewController.swift */,
+				94ABA9E22114E666004E951C /* README.md */,
 				94CD6E85210130CB003509C6 /* 100 Percenter */,
 				94CD6E84210130CB003509C6 /* Products */,
 			);
@@ -69,12 +67,14 @@
 		94CD6E85210130CB003509C6 /* 100 Percenter */ = {
 			isa = PBXGroup;
 			children = (
+				94F0230921029C180001567F /* GameListTableViewController.swift */,
+				94ABA9E02114C75C004E951C /* TaskCategoriesTableViewController.swift */,
+				94A17A0B211F92100001F1A5 /* TasksTableViewController.swift */,
 				94CC9FD22137A8CB000305B7 /* DefaultGameList.json */,
 				94CD6E86210130CC003509C6 /* AppDelegate.swift */,
 				94CD6E88210130CC003509C6 /* ViewController.swift */,
 				94CD6E8A210130CC003509C6 /* Main.storyboard */,
 				94CD6E8D210130CC003509C6 /* Assets.xcassets */,
-				94ABA9E22114E666004E951C /* README.md */,
 				94CD6E8F210130CC003509C6 /* LaunchScreen.storyboard */,
 				94CD6E92210130CC003509C6 /* Info.plist */,
 				9434E6E7213866C50089F95C /* 100Percenter.xcdatamodeld */,
