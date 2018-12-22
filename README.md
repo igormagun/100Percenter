@@ -16,7 +16,7 @@ Anyone who wishes to can contribute to the game list, though I would not recomme
 * Split the game list out into different JSON files for each game - a single JSON file will quickly become unwieldy
 * Optimize and clean up the game list update mechanism
 * Improve the user interface. One idea I have been given is to float completed tasks down to the bottom of the list, to more easily surface remaining tasks
-* Add a more visual list based on covert art for each individual game
+* Add a more visual list based on cover art for each individual game - the JSON already includes references to cover art images
 * Add 3D Touch support, to allow users to jump right into a game screen from the app icon, or peek into a category within the app
 * An Android version of the app, which could import the same game list
 * Apple Watch support, maybe
