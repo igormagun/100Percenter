@@ -10,16 +10,15 @@ Anyone who wishes to can contribute to the game list, though I would not recomme
 ## TO-DO
 * Fill out the initial game list - the first few games will be GTA IV, GTA III and GTA San Andreas. I am planning to add more in future releases, but will release with these three
 * Support for subcategories in each individual game's list of tasks
-* Add a quick about page
-* Add icons for the tabs at the bottom of the screen
+* Add a title bar to the About page
 
 ## Future Improvements
 * Split the game list out into different JSON files for each game - a single JSON file will quickly become unwieldy
 * Optimize and clean up the game list update mechanism
 * Improve the user interface. One idea I have been given is to float completed tasks down to the bottom of the list, to more easily surface remaining tasks
-* Add a more visual list based on cover art for each individual game - the JSON already includes references to cover art images
 * Add 3D Touch support, to allow users to jump right into a game screen from the app icon, or peek into a category within the app
 * An Android version of the app, which could import the same game list
+* Possibly add a more visual list based on cover art for each individual game - the JSON already includes references to cover art images
 * Apple Watch support, maybe
 
 ## Contributing to the Game List
@@ -62,6 +61,8 @@ For category titles, also try to keep any keywords at the front that could help 
 Thanks to Twitter for the "Hundred Points Symbol" emoji from their Twemoji collection, which I used for the app icon. It is licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
 Thanks to Skygear for their excellent MakeAppIcon tool, which made creating the icon much, much easier - I just put a single PNG into their tool, and it gave me everything I needed
+
+Thanks to Icons8 for their iOS 11 Glyphs pack, which I used for the tab bar icons in this app.
 
 ## License
 Copyright 2018 Igor Magun

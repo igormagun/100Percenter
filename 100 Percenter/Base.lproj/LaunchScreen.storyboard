@@ -42,7 +42,7 @@
         <scene sceneID="cWG-gg-gV8">
             <objects>
                 <navigationController id="8hL-08-h2g" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Games" id="Hej-WS-7h6"/>
+                    <tabBarItem key="tabBarItem" title="Games" image="List" id="Hej-WS-7h6"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="FEg-QZ-xiQ">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -58,7 +58,6 @@
         <!--About-->
         <scene sceneID="DDS-f3-zTO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1qc-ip-d2I" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Q4n-z2-nxl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f04-1J-kn6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -66,8 +65,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="95w-fx-ah6"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" id="cc4-US-rMl"/>
+                    <tabBarItem key="tabBarItem" title="About" image="About" id="cc4-US-rMl"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1qc-ip-d2I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-930" y="1038"/>
         </scene>
@@ -90,4 +90,8 @@
             <point key="canvasLocation" x="-1862" y="695"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="About" width="30" height="30"/>
+        <image name="List" width="30" height="30"/>
+    </resources>
 </document>
