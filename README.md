@@ -10,7 +10,6 @@ Anyone who wishes to can contribute to the game list, though I would not recomme
 ## TO-DO
 * Fill out the initial game list - the first few games will be GTA IV, GTA III and GTA San Andreas. I am planning to add more in future releases, but will release with these three
 * Support for subcategories in each individual game's list of tasks
-* Fix About page formatting on certain device sizes (i.e. iPhone SE)
 
 ## Future Improvements
 * Split the game list out into different JSON files for each game - a single JSON file will quickly become unwieldy
