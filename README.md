@@ -3,7 +3,7 @@
 
 This iOS app is designed to track user progress towards 100% completion in various video games. It imports a JSON list of video games and their respective 100% tasks, stores it locally using CoreData, and then tracks progression as the user checks items off the list.
 
-It is still a **work in progress**, but is nearing completion, and thus I have decided to upload it to Github.
+It is still a **work in progress**, but is nearing completion, and thus I have decided to upload it to GitHub.
 
 Anyone who wishes to can contribute to the game list, though I would not recommend doing so until I have finalized support for subcategories first - the formatting for this is not yet decided.
 
@@ -59,7 +59,7 @@ For category titles, also try to keep any keywords at the front that could help 
 ## Credits
 Thanks to Twitter for the "Hundred Points Symbol" emoji from their Twemoji collection, which I used for the app icon. It is licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
 
-Thanks to Skygear for their excellent MakeAppIcon tool, which made creating the icon much, much easier - I just put a single PNG into their tool, and it gave me everything I needed
+Thanks to Skygear for their excellent MakeAppIcon tool, which made creating the icon much, much easier - I just put a single PNG into their tool, and it gave me everything I needed.
 
 Thanks to Icons8 for their iOS 11 Glyphs pack, which I used for the tab bar icons in this app.
 
