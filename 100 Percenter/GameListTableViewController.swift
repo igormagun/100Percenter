@@ -125,8 +125,8 @@ class GameListTableViewController: UITableViewController {
                                 }
                                 
                                 let updatedCategories = game[categoriesKey] as! [Dictionary<String, Any>]
-                                var arrayOfCategoryIDs: [Int64] = []
-                                var arrayOfTaskIDs: [Int64] = []
+                                var setOfCategoryIDs = Set<Int64>()
+                                var setOfTaskIDs = Set<Int64>()
                                 var categoriesWithDeletedTasks: [TaskCategory] = []
                                 
                                 // Check game categories for updates
@@ -134,8 +134,8 @@ class GameListTableViewController: UITableViewController {
                                     let category = updatedCategories[categoryIndex]
                                     let categoryID = category[uniqueIDKey] as! Int64
                                     // Check for duplicate categories - this should not happen in release versions
-                                    if !arrayOfCategoryIDs.contains(categoryID) {
-                                        arrayOfCategoryIDs.append(categoryID)
+                                    if !setOfCategoryIDs.contains(categoryID) {
+                                        setOfCategoryIDs.insert(categoryID)
                                     }
                                     else {
                                         // If for any reason there are duplicate categories, we stop attempting to update the list
@@ -177,8 +177,8 @@ class GameListTableViewController: UITableViewController {
                                         let task = tasksArray[taskIndex]
                                         let taskID = task[uniqueIDKey] as! Int64
                                         // Check for duplicate tasks - should not happen in release versions
-                                        if !arrayOfTaskIDs.contains(taskID) {
-                                            arrayOfTaskIDs.append(taskID)
+                                        if !setOfTaskIDs.contains(taskID) {
+                                            setOfTaskIDs.insert(taskID)
                                         }
                                         else {
                                             // If for any reason there are duplicate tasks, we stop attempting to update the list
@@ -212,7 +212,7 @@ class GameListTableViewController: UITableViewController {
                                     }
                                 }
                                 // Search for any deleted categories
-                                let coreDataCategoryPredicate = NSPredicate(format: "NOT (%K IN %@) AND belongsToGame == %@", uniqueIDKey, arrayOfCategoryIDs, gameToCompare)
+                                let coreDataCategoryPredicate = NSPredicate(format: "NOT (%K IN %@) AND belongsToGame == %@", uniqueIDKey, setOfCategoryIDs, gameToCompare)
                                 categoryFetchRequest.predicate = coreDataCategoryPredicate
                                 categoryFetchRequest.fetchLimit = 0
                                 
@@ -231,7 +231,7 @@ class GameListTableViewController: UITableViewController {
                                 }
                                 
                                 // Search for any deleted tasks outside of deleted categories
-                                let coreDataTaskPredicate = NSPredicate(format: "NOT (%K IN %@) AND belongsToGame == %@", uniqueIDKey, arrayOfTaskIDs, gameToCompare)
+                                let coreDataTaskPredicate = NSPredicate(format: "NOT (%K IN %@) AND belongsToGame == %@", uniqueIDKey, setOfTaskIDs, gameToCompare)
                                 taskFetchRequest.predicate = coreDataTaskPredicate
                                 taskFetchRequest.fetchLimit = 0
                                 
