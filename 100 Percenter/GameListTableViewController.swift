@@ -105,7 +105,7 @@ class GameListTableViewController: UITableViewController {
                             gameFetchRequest.predicate = coreDataGamePredicate
                             gameFetchRequest.fetchLimit = 1
                             
-                            let storedGame = try? coreDataContext.fetch(gameFetchRequest) as! [Game]
+                            let storedGame = try? coreDataContext.fetch(gameFetchRequest) as? [Game]
                             
                             // If the game already exists in the user game list, we check for updates
                             if storedGame?.count != 0 {
@@ -150,7 +150,7 @@ class GameListTableViewController: UITableViewController {
                                     categoryFetchRequest.predicate = coreDataCategoryPredicate
                                     categoryFetchRequest.fetchLimit = 1
                                     
-                                    let fetchedCategory = try? coreDataContext.fetch(categoryFetchRequest) as! [TaskCategory]
+                                    let fetchedCategory = try? coreDataContext.fetch(categoryFetchRequest) as? [TaskCategory]
                                     var storedCategory: TaskCategory? = nil
                                     
                                     // If there is an element in the fetched category array, we know it exists - check for updates
@@ -191,7 +191,7 @@ class GameListTableViewController: UITableViewController {
                                         taskFetchRequest.predicate = coreDataTaskPredicate
                                         taskFetchRequest.fetchLimit = 1
                                         
-                                        let fetchedTask = try? coreDataContext.fetch(taskFetchRequest) as! [Task]
+                                        let fetchedTask = try? coreDataContext.fetch(taskFetchRequest) as? [Task]
                                         
                                         if fetchedTask?.count != 0 {
                                             let taskToCompare = fetchedTask!.first!
@@ -216,7 +216,7 @@ class GameListTableViewController: UITableViewController {
                                 categoryFetchRequest.predicate = coreDataCategoryPredicate
                                 categoryFetchRequest.fetchLimit = 0
                                 
-                                let deletedCategories = try? coreDataContext.fetch(categoryFetchRequest) as! [TaskCategory]
+                                let deletedCategories = try? coreDataContext.fetch(categoryFetchRequest) as? [TaskCategory]
                                 if deletedCategories?.count != 0 {
                                     // First delete any tasks in the deleted categories
                                     let tasksToDeletePredicate = NSPredicate(format: "belongsToCategory IN %@", deletedCategories!)
@@ -235,7 +235,7 @@ class GameListTableViewController: UITableViewController {
                                 taskFetchRequest.predicate = coreDataTaskPredicate
                                 taskFetchRequest.fetchLimit = 0
                                 
-                                let deletedTasks = try? coreDataContext.fetch(taskFetchRequest) as! [Task]
+                                let deletedTasks = try? coreDataContext.fetch(taskFetchRequest) as? [Task]
                                 if deletedTasks?.count != 0 {
                                     for task in deletedTasks! {
                                         categoriesWithDeletedTasks.append(task.belongsToCategory!)
