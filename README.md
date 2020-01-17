@@ -1,6 +1,6 @@
 100 Percenter
 ==========
-
+<p align="center">
 <img src="Screenshots/Screenshot1.png"
     alt="Main Screen"
     style="float: left; margin-right: 10px;"
@@ -11,6 +11,7 @@
     alt="Category Screen"
     style="float: left; margin-right: 10px;"
     width="200"/>
+</p>Ç
 
 This iOS app is designed to track user progress towards 100% completion in various video games. It imports a JSON list of video games and their respective 100% tasks, stores it locally using CoreData, and then tracks progression as the user checks items off the list.
 
